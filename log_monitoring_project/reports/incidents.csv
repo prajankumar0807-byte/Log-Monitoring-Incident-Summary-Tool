@@ -1,0 +1,3 @@
+service,error_type,count,first_occurrence,last_occurrence,sample_message,spike_detected,peak_window_count
+payment-service,payment gateway timeout code <n>,5,2026-10-15 09:30:02,2026-10-15 09:30:06,Payment gateway timeout code 504,True,5
+database-service,database connection refused,2,2026-10-15 09:31:00,2026-10-15 09:32:02,Database connection refused,False,0

@@ -1,0 +1,10 @@
+2026-10-15 09:30:01 INFO auth-service - User login successful
+2026-10-15 09:30:02 ERROR payment-service - Payment gateway timeout code 504
+2026-10-15 09:30:03 ERROR payment-service - Payment gateway timeout code 504
+2026-10-15 09:30:04 ERROR payment-service - Payment gateway timeout code 504
+2026-10-15 09:30:05 ERROR payment-service - Payment gateway timeout code 504
+2026-10-15 09:30:06 ERROR payment-service - Payment gateway timeout code 504
+2026-10-15 09:30:07 WARNING inventory-service - Low stock for product 123
+{"timestamp":"2026-10-15T09:31:00","level":"CRITICAL","service":"database-service","message":"Database connection refused"}
+2026-10-15 09:32:01 INFO auth-service - Token refreshed
+2026-10-15 09:32:02 ERROR database-service - Database connection refused

@@ -1,0 +1,30 @@
+LOG MONITORING & INCIDENT SUMMARY
+======================================
+Generated at       : 2026-10-15 04:50:21
+Total log records  : 10
+Error records      : 7
+Services observed  : 4
+Incident groups    : 2
+Spike incidents    : 1
+Services           : auth-service, database-service, inventory-service, payment-service
+Log levels         : {'CRITICAL': 1, 'ERROR': 6, 'INFO': 2, 'WARNING': 1}
+
+TOP INCIDENTS (showing up to 10)
+--------------------------------------
+1. Service: payment-service
+   Error type       : payment gateway timeout code <n>
+   Occurrences      : 5
+   First occurrence : 2026-10-15 09:30:02
+   Last occurrence  : 2026-10-15 09:30:06
+   Spike detected   : YES
+   Peak window count: 5
+   Sample message   : Payment gateway timeout code 504
+
+2. Service: database-service
+   Error type       : database connection refused
+   Occurrences      : 2
+   First occurrence : 2026-10-15 09:31:00
+   Last occurrence  : 2026-10-15 09:32:02
+   Spike detected   : NO
+   Peak window count: 0
+   Sample message   : Database connection refused

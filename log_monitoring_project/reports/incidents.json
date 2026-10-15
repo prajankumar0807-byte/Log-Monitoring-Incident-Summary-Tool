@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "generated_at": "2026-10-15 04:50:21",
+    "total_log_records": 10,
+    "error_records": 7,
+    "service_count": 4,
+    "services": [
+      "auth-service",
+      "database-service",
+      "inventory-service",
+      "payment-service"
+    ],
+    "log_levels": {
+      "CRITICAL": 1,
+      "ERROR": 6,
+      "INFO": 2,
+      "WARNING": 1
+    },
+    "incident_count": 2,
+    "spike_incident_count": 1
+  },
+  "incidents": [
+    {
+      "service": "payment-service",
+      "error_type": "payment gateway timeout code <n>",
+      "count": 5,
+      "first_occurrence": "2026-10-15 09:30:02",
+      "last_occurrence": "2026-10-15 09:30:06",
+      "sample_message": "Payment gateway timeout code 504",
+      "spike_detected": true,
+      "peak_window_count": 5
+    },
+    {
+      "service": "database-service",
+      "error_type": "database connection refused",
+      "count": 2,
+      "first_occurrence": "2026-10-15 09:31:00",
+      "last_occurrence": "2026-10-15 09:32:02",
+      "sample_message": "Database connection refused",
+      "spike_detected": false,
+      "peak_window_count": 0
+    }
+  ]
+}
